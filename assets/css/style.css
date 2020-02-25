@@ -1,7 +1,7 @@
 * body{
     margin: 0;
     padding: 0;
-    background-image: url("../images/oriental-tiles.png");
+    background-image: url("../images/herringbone.png");
     background-attachment: fixed;
 }
     
@@ -12,9 +12,9 @@ nav{
     display: flex;
     align-items: center;
     min-height: 8vh;
-    background-color: white;
+    background-color: #ffffff;
     border-bottom: thin;
-    border-color: gray;
+    border-color:#cccccc;
     margin: 0;
     padding: 0;
     
@@ -71,6 +71,7 @@ nav{
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
+    font-family: 'Geogria';
     font-size: 16px;
 }
 
@@ -140,9 +141,11 @@ nav{
 .contentbox{
     align-self: center;
     margin: auto;
-    background-color: #ffff;
+    background-color: #ffffff;
     width: 960px;
-    height: 500px;
+    height: 550px;
+    border: 4px;
+    border-color: #dddddd;
     
     
 }
@@ -169,6 +172,10 @@ img.one{
     font-size: 18px;
     line-height: 2;
     margin: 38px;
+    color: #777777;
+    font-weight: bold;
+    font-family: 'sans-serif';
+    
 
 }
 
@@ -194,4 +201,51 @@ img.one{
     height: 50px;
     
    
+}
+
+input{
+    margin-left: 38px;
+    margin-right: 38px;
+    width: 878px;
+    height: 24px;
+}
+
+.contact{
+    margin-top: 16x;
+    margin-bottom: 6px;
+    margin-left: 38px;
+    font-family: 'Arial';
+    font-weight: bolder;
+    color: #777777;
+}
+
+.message {
+    margin-left: 38px;
+    margin-right: 38px;
+    width: 878px;
+    height: 200px;
+}
+
+.submit{
+    display: flex;
+    margin-left: 38px;
+    font-family: 'Arial';
+    background-color: #4aaaa5;
+    width: 80px;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    
+    
+}
+
+.contactbox{
+    align-self: center;
+    margin: auto;
+    background-color: #ffffff;
+    width: 960px;
+    height: 600px;
+    border: 4px;
+    border-color: #dddddd;
 }
