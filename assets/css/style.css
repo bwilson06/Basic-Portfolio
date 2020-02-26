@@ -220,6 +220,7 @@ input{
 }
 
 .message {
+    resize:none;
     margin-left: 38px;
     margin-right: 38px;
     width: 878px;
@@ -228,7 +229,6 @@ input{
 
 .submit{
     display: flex;
-    position:fixed relative;
     margin-left: 38px;
     font-family: 'Arial';
     background-color: #4aaaa5;
@@ -292,3 +292,4 @@ input{
     justify-items: auto;
 
 }
+
