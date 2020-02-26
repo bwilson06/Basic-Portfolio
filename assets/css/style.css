@@ -228,6 +228,7 @@ input{
 
 .submit{
     display: flex;
+    position:fixed relative;
     margin-left: 38px;
     font-family: 'Arial';
     background-color: #4aaaa5;
@@ -248,4 +249,46 @@ input{
     height: 600px;
     border: 4px;
     border-color: #dddddd;
+}
+
+.portfoliobox{
+    align-self: center;
+    margin: auto;
+    background-color: #ffffff;
+    width: 960px;
+    height: 1100px;
+    border: 4px;
+    border-color: #dddddd;
+}
+
+.portfolioimagesone{
+    display: flex;
+    
+    margin-left:10px;
+    width:250px;
+    height: 200px;
+}
+
+.portfolioimagestwo{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 38px;
+    width:250px;
+    height: 200px;
+}
+
+.container_p{
+    display: flex;
+    justify-items: auto;
+
+    
+}
+
+.portfolioimagesthree{
+    display: flex;
+    margin-left:38px;
+    width:884px;
+    height: 600px;
+    justify-items: auto;
+
 }
